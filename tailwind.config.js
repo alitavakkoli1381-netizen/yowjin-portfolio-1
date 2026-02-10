@@ -8,6 +8,19 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      module.exports = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        border: "rgba(255,255,255,0.2)", //
+      },
+    },
+  },
+  plugins: [],
+}
       fontFamily: {
         sans: ['var(--font-inter)'],
       },
